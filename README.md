@@ -119,7 +119,7 @@ Credit Score
 
 These variables were the strongest predictors of borrower default and are consistent with factors commonly considered in credit risk assessment.
 
-##Business Insights
+## Findings
 
 The findings indicate that:
 
@@ -139,7 +139,7 @@ The findings indicate that:
 -XGBoost
 -Imbalanced-learn (SMOTE)
 
-##Future Improvements
+## Findings
 
 Future work may include:
 
