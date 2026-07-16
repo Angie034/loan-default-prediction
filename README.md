@@ -93,15 +93,16 @@ Model Evaluation
 
 The models were evaluated using:
 
-Accuracy
-Precision
-Recall
-F1 Score
-ROC-AUC
-ROC Curve
-Confusion Matrix
-Feature Importance
-Feature Importance
+-Accuracy
+-Precision
+-Recall
+-F1 Score
+-ROC-AUC
+-ROC Curve
+-Confusion Matrix
+-Feature Importance
+
+## Feature importance
 
 Feature importance analysis identified the variables that contributed most significantly to predicting loan default.
 
@@ -118,44 +119,27 @@ Credit Score
 
 These variables were the strongest predictors of borrower default and are consistent with factors commonly considered in credit risk assessment.
 
-Business Insights
+##Business Insights
 
 The findings indicate that:
 
-Borrowers with higher debt burdens and larger loan amounts are more likely to default.
-Income and employment history play an important role in loan repayment.
-Credit score remains one of the strongest indicators of default risk.
-Machine learning models can support lenders by providing faster and more consistent credit risk assessments.
-Technologies Used
-Python
-Jupyter Notebook
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-XGBoost
-Imbalanced-learn (SMOTE)
-Repository Structure
-loan-default-prediction/
-│
-├── data/
-│   └── loan_data.csv
-│
-├── notebooks/
-│   └── Loan_Default_Prediction.ipynb
-│
-├── images/
-│   ├── roc_curve.png
-│   ├── confusion_matrix.png
-│   ├── feature_importance.png
-│
-├── report/
-│   └── Loan_Default_Prediction_Report.pdf
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-Future Improvements
+-Borrowers with higher debt burdens and larger loan amounts are more likely to default.
+-Income and employment history play an important role in loan repayment.
+-Credit score remains one of the strongest indicators of default risk.
+-Machine learning models can support lenders by providing faster and more consistent credit risk assessments.
+
+
+## Technologies Used
+-Python
+-Jupyter Notebook
+-Pandas
+-NumPy
+-Matplotlib
+-Scikit-learn
+-XGBoost
+-Imbalanced-learn (SMOTE)
+
+##Future Improvements
 
 Future work may include:
 
