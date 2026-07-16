@@ -37,12 +37,16 @@ Loan Purpose
 Has Mortgage
 Has Dependents
 Has Co-signer
-Target Variable
+## 🎯 Target Variable
 
-Default
+| Value | Description |
+|:-----:|-------------|
+| **0** | No Default |
+| **1** | Loan Default |
 
-0 = No Default
-1 = Loan Default
+
+
+
 Project Workflow
 1. Data Preprocessing
 Loaded the dataset using Pandas.
@@ -77,11 +81,14 @@ The dataset was divided into:
 Training Set (80%)
 Testing Set (20%)
 Model Performance
-Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
-Logistic Regression	67.72%	21.29%	65.98%	32.19%	0.731
-Decision Tree	72.01%	18.77%	42.67%	26.08%	0.660
-Random Forest	77.02%	20.57%	34.32%	25.72%	0.677
-XGBoost	84.75%	29.60%	22.71%	25.70%	0.717
+## 📈 Model Performance
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|:------|---------:|----------:|--------:|---------:|---------:|
+| Logistic Regression | 67.72% | 21.29% | **65.98%** | **32.19%** | **0.731** |
+| Decision Tree | 72.01% | 18.77% | 42.67% | 26.08% | 0.660 |
+| Random Forest | 77.02% | 20.57% | 34.32% | 25.72% | 0.677 |
+| XGBoost | **84.75%** | **29.60%** | 22.71% | 25.70% | 0.717 |
 Model Evaluation
 
 The models were evaluated using:
