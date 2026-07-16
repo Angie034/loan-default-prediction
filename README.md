@@ -139,7 +139,7 @@ The findings indicate that:
 -XGBoost
 -Imbalanced-learn (SMOTE)
 
-## Findings
+## Future improvements
 
 Future work may include:
 
