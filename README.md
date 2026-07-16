@@ -93,14 +93,14 @@ Model Evaluation
 
 The models were evaluated using:
 
--Accuracy
--Precision
--Recall
--F1 Score
--ROC-AUC
--ROC Curve
--Confusion Matrix
--Feature Importance
+-Accuracy  
+-Precision  
+-Recall  
+-F1 Score  
+-ROC-AUC  
+-ROC Curve  
+-Confusion Matrix  
+-Feature Importance  
 
 ## Feature importance
 
